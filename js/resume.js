@@ -1,3 +1,4 @@
+
 (function($) {
   "use strict"; // Start of use strict
 
@@ -25,4 +26,15 @@
     target: '#sideNav'
   });
 
+    $("#cyclingthumb").click(function(){
+        $("#cyclingmodal").modal();
+    });
+    
+    $("#raptorthumb").click(function(){
+                $("#raptormodal").modal();
+    });
+
+    $("#deerthumb").click(function(){
+        $("#deermodal").modal();
+    });
 })(jQuery); // End of use strict
